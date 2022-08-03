@@ -231,6 +231,15 @@ section.my-active-class .landing__container::after {
 
 /* changing sone styles for specific screen width*/
 
+@media only screen and (max-width :925px ) {
+ 
+        h1 {
+            font-size: 7em;
+            margin: 2em 1rem 1.1em;
+    
+        }
+    }
+
 @media only screen and (max-width :600px ) {
 
 .navbar__menu li {
@@ -257,7 +266,7 @@ section.my-active-class .landing__container::after {
         font-size: 5em;
         margin: 2em 2rem 1.7em;
 
-}
+    }
 
 a.menu__link {
   
@@ -295,3 +304,4 @@ a.menu__link {
     
     }
     
+
