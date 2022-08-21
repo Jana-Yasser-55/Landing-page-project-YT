@@ -253,15 +253,7 @@ section.my-active-class .landing__container::after {
     }
 
 
-    .navbar__menu .menu__link:hover {
-        background: #333;
-        color: #fff;
-        transition: ease 0.3s all;
-        
-        
     
-    }
-
     h1 {
         font-size: 5em;
         margin: 2em 2rem 1.7em;
@@ -296,7 +288,7 @@ a.menu__link {
         margin: 3px 5px;   
         text-align: center;
         font-size: 10px;
-        padding-left: 2px;
+       
         
          
     }
@@ -304,4 +296,33 @@ a.menu__link {
     
     }
     
+
+
+    @media only screen and (max-width :280px ) {
+
+        h2 {
+            border-bottom: 1px solid #cc1;
+            font-family: 'Oxygen', Sans-Serif;
+            font-size: 2.5em;
+            color: #fff;
+        }
+
+        h1 {
+            font-size: 4.2em;
+            margin: 2em 0rem 1em;
+    
+    }
+
+    a.menu__link {
+      
+        margin: 3px 6px;   
+        text-align: center;
+        font-size: 9px;
+       
+        
+         
+    }
+
+    }
+
 
